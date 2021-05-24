@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding-top: 6rem;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 400;
+    color: #687980;
+}
+
+.btn-primary {
+    background: #fea82f;
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #ff6701;
+    border: 0px;
+}
+
+.btn-secondary {
+    background: none;
+    border: 0px;
+    color: #fea82f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 0px;
+    color: #ff6701;
+}
+
+.hero {
+    padding-top: 5rem;
+}
+
+.hero h3 {
+    color: #fea82f;
+    font-weight: 600;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero p {
+    font-weight: 400;
+    color: #687980;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #2f281e;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fea82f;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary,
+    .btn-secondary {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .interested,
+    .card {
+        padding: 0px !important;
+    }
+}
+
+.interested .card {
+    background: #f2f2f2;
+}
+
+#servis .card {
+    background: #f2f2f2;
+}
+
+#servis .card:hover {
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tools {
+    background: #f2f2f2;
+}
+
+.portofolio,
+.card-text {
+    color: black;
+}
+
+footer {
+    background: url('/images/footer.jpg');
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #687980;
+}
